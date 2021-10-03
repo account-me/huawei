@@ -20,6 +20,7 @@ $(function() {
     $(".box-gif").click(function(){
 
         $(this).addClass("selected1").siblings().removeClass('selected1');
+        $(".btn-primary").click();
     });
 
     // ============= COMPELETE ======
