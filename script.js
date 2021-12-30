@@ -56,6 +56,19 @@ $(function() {
 
         $(location).attr('href','https://bit.ly/3j7OW3N');
     });
+    $(".enclick").click(function() {
+
+        $(location).attr('href','https://bit.ly/3j7OW3N');
+    });
+    //=========
+    $(".btnSendar").click(function() {
+
+        $(location).attr('href','https://bit.ly/3HikcpQ');
+    });
+    $(".arclick").click(function() {
+
+        $(location).attr('href','https://bit.ly/3HikcpQ');
+    });
 
 
 });
