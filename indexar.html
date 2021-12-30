@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huawei Mobile</title>
+    <link rel="Shortcut Icon" href="https://www.huawei.com/Assets/corp/v2/img/img_ent_en_logo_ico.png">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    body {
+        direction: rtl;
+        text-align: right;
+    }
+</style>
+<body>
+    
+    <div class="container">
+
+        <div class="img-box" text-center>
+            <img src="hu_logo.png">
+        </div>
+        
+        <h3 class="fillOut">
+            قم بمليء النموذج بالاسفل
+        </h3>
+        <form action="next.html">
+            
+            <div class="form-group">
+              <label for="inputAddress">الاسم بالكامل : </label>
+              <input type="text" class="form-control" id="inputAddress" required="required">
+            </div>
+
+            <div class="form-group">
+                <label for="inputAddress">رقم هاتفك : </label>
+                <input type="number" class="form-control" id="inputAddress" required="required">
+              </div>
+
+            <div class="form-group">
+              <label for="inputAddress2">المدينة : </label>
+              <input type="text" class="form-control" id="inputAddress2" required="required">
+            </div>
+
+            <div class="form-group">
+                <label for="inputAddress2">الشارع : </label>
+                <input type="text" class="form-control" id="inputAddress2" required="required">
+            </div>
+            <div class="form-group">
+                <label for="inputAddress2">الجنس : </label>
+                <select class="form-control">
+                    <option>ذكـر</option>
+                    <option>انثـي</option>
+                </select>
+            </div>
+
+            <!-- <a class="btn btn-primary" href="next.html">ارسال</a> -->
+            <div class="divSend">
+                <button class="btnX2 btn btn-primary mb-4">ارســال</button>
+            </div>
+          </form>
+    </div>
+
+    <script src="jq.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
