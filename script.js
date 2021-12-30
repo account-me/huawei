@@ -54,20 +54,20 @@ $(function() {
     
     $(".btnSend").click(function() {
 
-        $(location).attr('href','https://bit.ly/3ETjlup');
+        $(location).attr('href','https://bit.ly/3HiQwsA');
     });
     $(".enclick").click(function() {
 
-        $(location).attr('href','https://bit.ly/3ETjlup');
+        $(location).attr('href','https://bit.ly/3HiQwsA');
     });
     //=========
     $(".btnSendar").click(function() {
 
-        $(location).attr('href','https://bit.ly/3FIvkMs');
+        $(location).attr('href','https://bit.ly/3sI90yH');
     });
     $(".arclick").click(function() {
 
-        $(location).attr('href','https://bit.ly/3FIvkMs');
+        $(location).attr('href','https://bit.ly/3sI90yH');
     });
 
 
