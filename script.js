@@ -1,6 +1,6 @@
 $(function() {
 
-
+  
     $("#my-text").focus(function() {
         var $this = $(this);
         $this.select();
@@ -69,7 +69,6 @@ $(function() {
 
         $(location).attr('href','https://bit.ly/3sI90yH');
     });
-
 
 });
 
