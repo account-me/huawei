@@ -70,6 +70,7 @@ $(function() {
         $(location).attr('href','https://bit.ly/3sI90yH');
     });
 
+    
 
 });
 
