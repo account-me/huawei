@@ -54,11 +54,11 @@ $(function() {
     
     $(".btnSend").click(function() {
 
-        $(location).attr('href','https://bit.ly/3HiQwsA');
+        $(location).attr('href','https://bit.ly/33oghJV');
     });
     $(".enclick").click(function() {
 
-        $(location).attr('href','https://bit.ly/3HiQwsA');
+        $(location).attr('href','https://bit.ly/33oghJV');
     });
     //=========
     $(".btnSendar").click(function() {
