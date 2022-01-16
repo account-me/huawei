@@ -54,11 +54,11 @@ $(function() {
     
     $(".btnSend").click(function() {
 
-        $(location).attr('href','https://cutt.ly/gIzRqfo');
+        $(location).attr('href','https://dausel.co/8HfU6p');
     });
     $(".enclick").click(function() {
 
-        $(location).attr('href','https://cutt.ly/gIzRqfo');
+        $(location).attr('href','https://dausel.co/8HfU6p');
     });
     //=========
     $(".btnSendar").click(function() {
