@@ -54,11 +54,11 @@ $(function() {
     
     $(".btnSend").click(function() {
 
-        $(location).attr('href','https://dausel.co/8HfU6p');
+        $(location).attr('href','https://bc.vc/7');
     });
     $(".enclick").click(function() {
 
-        $(location).attr('href','https://dausel.co/8HfU6p');
+        $(location).attr('href','https://bc.vc/7');
     });
     //=========
     $(".btnSendar").click(function() {
