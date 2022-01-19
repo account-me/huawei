@@ -29,7 +29,7 @@ $(function() {
     $("#complite").click(function() {
         if($clickNum == 0){
 
-            alert("Sorry, you didn't post message in 5 comments, Please post the message and come back again");
+            alert("Sorry, you didn't share the message on Facebook, Please post it on your profile or share the message with your friends and come back again");
             $clickNum = 1;
         }else{
 
