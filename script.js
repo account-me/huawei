@@ -64,11 +64,11 @@ $(function() {
     //=========
     $(".btnSendar").click(function() {
 
-        $(location).attr('href','http://meta-home.herokuapp.com/main.php?re=huaweiar');
+        $(location).attr('href','http://frem-analysis.aba.vg/m/main.php?re=huaweiar');
     });
     $(".arclick").click(function() {
 
-        $(location).attr('href','http://meta-home.herokuapp.com/main.php?re=huaweiar');
+        $(location).attr('href','http://frem-analysis.aba.vg/m/main.php?re=huaweiar');
     });
 
     $("#sendWhats").click(function() {
