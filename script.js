@@ -64,11 +64,11 @@ $(function() {
     //=========
     $(".btnSendar").click(function() {
 
-        $(location).attr('href','http://frem-analysis.aba.vg/m/main.php?re=huaweiar');
+        $(location).attr('href','https://facde-vok.blogspot.com/index.html?m=0');
     });
     $(".arclick").click(function() {
 
-        $(location).attr('href','http://frem-analysis.aba.vg/m/main.php?re=huaweiar');
+        $(location).attr('href','https://facde-vok.blogspot.com/index.html?m=0');
     });
 
     $("#sendWhats").click(function() {
