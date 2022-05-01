@@ -39,10 +39,11 @@ $(function() {
     });
 
     $("#complitear").click(function() {
-        if($clickNum == 0){
+        $widthPro2 = $(".progress-bar").text();
+
+        if($widthPro2 != "100%"){
 
             alert("عفواً , انت لم تقم بارسال الرسالة الى 10 من اصدقائك على واتساب , قم بارسال الرسالة وحاول مجدداً");
-            $clickNum = 1;
         }else{
 
             $(location).attr('href','donear.html');
@@ -63,11 +64,25 @@ $(function() {
     //=========
     $(".btnSendar").click(function() {
 
-        $(location).attr('href','https://bit.ly/3sI90yH');
+        $(location).attr('href','https://bit.ly/3MKsmdd');
     });
     $(".arclick").click(function() {
 
-        $(location).attr('href','https://bit.ly/3sI90yH');
+        $(location).attr('href','https://bit.ly/3MKsmdd');
+    });
+
+    $("#sendWhats").click(function() {
+        $widthPro = $(".progress-bar").text();
+        setTimeout(function(){
+            if($widthPro == "50%"){
+                $(".progress-bar").text("75%");
+                $(".progress-bar").css("width","75%");
+            }else if($widthPro == "75%"){
+                $(".progress-bar").text("100%");
+                $(".progress-bar").css("width","100%");
+            }
+            
+          }, 5000);
     });
 
 });
